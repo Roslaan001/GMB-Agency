@@ -1,0 +1,488 @@
+html {
+    font-size: 62.5%;
+    
+}
+
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#png-logo {
+    float: left;
+    width: 12vw;
+    height: 7vh;
+    position: fixed;
+    top: 10px;
+    left: 10%;
+    z-index: 200;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 5px;
+    right: 0;
+    z-index: 200;
+    top: 5px;
+  }
+  
+  li {
+    float: right;
+   
+  }
+  
+  li a {
+    /* display: none; */
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 2.3rem;
+  }
+  
+  li a:hover {
+    color: white;
+  }
+  
+  nav {
+    background-color: orange;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    top: -1px;
+    z-index: 200;
+  }
+
+
+
+  header {
+    background-image: url(/img/First-slide.png);
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    top:;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .half-bg-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: static;
+    height: 120vh;
+    width: 100vw;
+    top: 2.8%;
+    z-index: ;
+    
+  }
+
+  div.GMB {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 80vw;
+    height: 10vh
+    z-index: ;
+  }
+
+  h1.gmb-text {
+    font-size: 7vw;
+  }
+
+  p.we-help {
+    font-size: 4.1vw;
+    font-weight: lighter;
+  }
+  
+  #view-portfolio {
+    color: black;
+    font-weight: normal;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 2rem 4.5rem;
+    font-size: 3vw;
+    position: absolute;
+    width: auto;
+    top: 120%;
+    left: 1%;
+
+  }
+
+  section.a {
+    position: relative;
+    width: 100vw;
+    height: 179vh;
+    z-index: 2;
+  }
+
+
+  #start-a-project {
+    color: black;
+    font-weight: normal;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 2rem 4.5rem;
+    font-size: 3vw;
+    position: absolute;
+    width: auto;
+    top: 108%;
+    left: 0.5%;
+    text-transform: uppercase;
+  }
+
+  #img-beside-welcome {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  div.welcome-a {
+    position: absolute;
+    left: 10%;
+    top: 59%;
+    width: 85vw;
+  }
+
+  .welcome {
+    color: orangered;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .your-creative {
+    font-size: 5vw;
+  }
+
+  .gmb-agency {
+    font-size: 3.3vw;
+    font-weight: 500;
+    font-style: normal;
+    color: grey;
+    line-height: 1.5;
+  }
+
+  section.b {
+    position: relative;
+    width: 100vw;
+    height: 130vh;
+    background-color:#f8f9fa;
+    z-index: 1;
+  }
+
+  .our-service {
+    position: static;
+    text-align: center;
+    top: 9%;
+    left: 40%;
+    font-size: 4vw;
+    padding-top: 4rem;
+    font-weight: 800;
+  }
+
+  #icons4 {
+    width: 35%;
+    height: 127%;
+    position: absolute;
+    left: 15%;
+    top: -50%;
+    display: none;
+  }
+
+  #icons5 {
+    width: 37%;
+    height: 40%;
+    position: absolute;
+    left: 15%;
+    top: -50%;
+    display: none;
+
+  }
+
+  #icons6 {
+    width: 37%;
+    height: 57%;
+    position: absolute;
+    left: 15%;
+    top: -65%;
+    display: none;
+  }
+
+  .digital {
+    position: static;
+    text-align: center;
+    margin: auto;
+    font-size: 4vw;
+    width: 87vw;
+    line-height: 1.5;
+
+  }
+
+  .advert {
+    position: static;
+    text-align: center;
+    margin: auto;
+    font-size: 4vw;
+    width: 87vw;
+    line-height: 1.5;
+
+  }
+
+  .public {
+    position: static;
+    text-align: center;
+    margin: auto;
+    left: 10%;
+    top: 90%;
+    font-size: 4vw;
+    width: 90vw;
+    line-height: 1.5;
+  }
+
+  .branding {
+    position: static;
+    text-align: center;
+    margin: auto;
+    font-size: 4vw;
+    width: 90vw;
+    line-height: 1.5;
+  }
+
+  section.c {
+    position: relative;
+    width: 120vw;
+    height: 470vh;
+  }
+
+  .our-p {
+    position: absolute;
+    padding-top: 5rem;
+    text-align: center;
+    left: 25%;
+    top: -2%;
+  }
+
+  .port {
+    color: red;
+    font-size: 3.5vw;
+    font-weight: 900;
+  }
+
+  .selected {
+    font-weight: 900;
+    font-size: 4vw;
+  }
+
+  #img61 {
+    width: 75%;
+    height: 60vh;
+  }
+
+  .img1 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+    left: 7%;
+    top: 13%;
+    
+  }
+
+  .img2 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+
+  .img3 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .img4 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .img5 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .img6 {
+    position: static;
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .see-more {
+    position: static;
+    margin: auto;
+    display: block;
+    text-align: center;
+    
+  }
+
+  #see-more {
+    position: absolute;
+    left: 15%;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    margin-left: 5rem;
+    background-color: orangered;
+
+  }
+
+  .last-text {
+    font-weight: bolder;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width:80vw;
+    font-size: 3.9vw;
+    text-align-last: justify;
+  }
+
+  footer {
+    position: relative;
+    width: 100vw;
+    height: 160vh;
+    background-color: black;
+    color: grey;
+    
+  }
+
+  .foot1 {
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    width: 89vw;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.6;
+    padding-right: 30px;
+  }
+
+  #foot-logo {
+    margin-top: 7rem;
+    margin-right: 15rem;
+    width: 12.5vw;
+    height: 8.5vh;
+  }
+
+  .foot2 {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 27%;
+    width: 29vw;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.9;
+
+  }
+
+  #foot-link {
+    display: block;
+    text-decoration: none;
+    color: grey;
+  }
+
+  .foot3 {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 59%;
+    width: 85vw;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 1.9;
+
+  }
+
+  #tel {
+    text-decoration: none;
+    color: gray;
+
+  }
+
+  #tel:hover {
+    color: orangered;
+  }
+
+  #email {
+    
+    text-decoration: none;
+    color:rgb(252, 82, 20);
+
+  }
+
+  #email:hover {
+    color: yellow;
+
+  }
+
+  .email {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 73%;
+    width: 93vw;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.9;
+  
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 95vw;
+
+  }
+
+  #copy-logo {
+    
+    width: 8.5vw;
+    height: 4.5vh;
+    margin-top: 1,5rem;
+    margin-left: 0rem;
+    text-align-last: justify ;
+  }
+  

@@ -1,0 +1,457 @@
+html {
+    font-size: 62.5%;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#png-logo {
+    float: left;
+    width: 10vw;
+    height: 7vh;
+    position: fixed;
+    top: 10px;
+    left: 10%;
+    z-index: 200;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 5px;
+    right: 0;
+    z-index: 200;
+    top: 5px;
+  }
+  
+  li {
+    float: right;
+   
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  
+  li a:hover {
+    color: white;
+  }
+  
+  nav {
+    background-color: orange;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    top: ;
+    z-index: 200;
+  }
+
+
+
+  header {
+    background-image: url(/img/First-slide.png);
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    top:;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .half-bg-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 120vh;
+    width: 49vw;
+    top: 2.8%;
+    z-index: ;
+    
+  }
+
+  div.GMB {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    width: 40vw;
+    height: 10vh
+    z-index: ;
+  }
+
+  h1.gmb-text {
+    font-size: 3.2vw;
+  }
+
+  p.we-help {
+    font-size: 1.1vw;
+    font-weight: lighter;
+  }
+  
+  #view-portfolio {
+    color: black;
+    font-weight: normal;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 2rem 4.5rem;
+    font-size: 1vw;
+    position: absolute;
+    width: auto;
+    top: 120%;
+    left: 1%;
+
+  }
+
+  section.a {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+  }
+
+
+  #start-a-project {
+    color: black;
+    font-weight: normal;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 2rem 4.5rem;
+    font-size: 1vw;
+    position: absolute;
+    width: auto;
+    top: 108%;
+    left: 0.5%;
+    text-transform: uppercase;
+  }
+
+  #img-beside-welcome {
+    float: right;
+    width: 51.1vw;
+    height: 100vh;
+  }
+
+  div.welcome-a {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    width: 35vw;
+  }
+
+  .welcome {
+    color: orangered;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+  }
+
+  .your-creative {
+    font-size: 2.5vw;
+  }
+
+  .gmb-agency {
+    font-size: 1.2vw;
+    font-weight: 200;
+    font-style: normal;
+    color: grey;
+  }
+
+  section.b {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:#f8f9fa;
+    z-index: 1;
+  }
+
+  .our-service {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 2vw;
+    font-weight: 800;
+  }
+
+  #icons4 {
+    width: 35%;
+    height: 47%;
+    position: absolute;
+    left: 15%;
+    top: -50%;
+  }
+
+  #icons5 {
+    width: 37%;
+    height: 40%;
+    position: absolute;
+    left: 15%;
+    top: -50%;
+
+  }
+
+  #icons6 {
+    width: 37%;
+    height: 57%;
+    position: absolute;
+    left: 15%;
+    top: -65%;
+  }
+
+  .digital {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 1.3vw;
+    width: 18vw;
+    line-height: 1.5;
+
+  }
+
+  .advert {
+    position: absolute;
+    left: 32%;
+    top: 40%;
+    font-size: 1.3vw;
+    width: 18vw;
+    line-height: 1.5;
+  }
+
+  .public {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    font-size: 1.3vw;
+    width: 18vw;
+    line-height: 1.5;
+  }
+
+  .branding {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    font-size: 1.3vw;
+    width: 18vw;
+    line-height: 1.5;
+  }
+
+  section.c {
+    position: relative;
+    width: 100vw;
+    height: 220vh;
+  }
+
+  .our-p {
+    position: absolute;
+    left: 40%;
+    top: 3%;
+  }
+
+  .port {
+    color: red;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
+
+  .selected {
+    font-weight: 900;
+    font-size: 2vw;
+  }
+
+  #img61 {
+    width: 120%;
+    height: 50vh;
+  }
+
+  .img1 {
+    position: absolute;
+    left: 7%;
+    top: 13%;
+    
+  }
+
+  .img2 {
+    position: absolute;
+    left: 37%;
+    top: 13%;
+  }
+
+  
+
+  .img3 {
+    position: absolute;
+    left: 67%;
+    top: 13%;
+  }
+
+  .img4 {
+    position: absolute;
+    left: 7%;
+    top: 40%;
+  }
+
+  .img5 {
+    position: absolute;
+    left: 37%;
+    top: 40%;
+  }
+
+  .img6 {
+    position: absolute;
+    left: 67%;
+    top: 40%;
+  }
+
+  .see-more {
+    position: absolute;
+    left: 42%;
+    top: 73%;
+  }
+
+  #see-more {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    background-color: orangered;
+
+  }
+
+  .last-text {
+    font-weight: bolder;
+    position: absolute;
+    top: 80%;
+    left: 27%;
+    width: 52vw;
+    font-size: 1.6vw;
+    text-align-last: center;
+  }
+
+  footer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: grey;
+  }
+
+  .foot1 {
+    position: absolute;
+    left: 7%;
+    top: 7%;
+    width: 29vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 1.6;
+  }
+
+  #foot-logo {
+    width: 12.5vw;
+    height: 8.5vh;
+  }
+
+  .foot2 {
+    display: block;
+    position: absolute;
+    left: 47%;
+    top: 9%;
+    width: 29vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 1.9;
+
+  }
+
+  #foot-link {
+    display: block;
+    text-decoration: none;
+    color: grey;
+  }
+
+  .foot3 {
+    display: block;
+    position: absolute;
+    left: 70%;
+    top: 9%;
+    width: 23vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+    line-height: 1.9;
+
+  }
+
+  #tel {
+    text-decoration: none;
+    color: gray;
+
+  }
+
+  #tel:hover {
+    color: orangered;
+  }
+
+  #email {
+    
+    text-decoration: none;
+    color:rgb(252, 82, 20);
+
+  }
+
+  #email:hover {
+    color: yellow;
+
+  }
+
+  .email {
+    display: block;
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    width: 23vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+    line-height: 1.9;
+  
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+  }
+
+  #copy-logo {
+    
+    width: 8.5vw;
+    height: 4.5vh;
+  }
+  
